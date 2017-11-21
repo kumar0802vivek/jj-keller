@@ -1,0 +1,9 @@
+[23-Aug-2017 11:01:16 Europe/Berlin] PHP Fatal error:  Uncaught Zend_Controller_Response_Exception: Cannot send headers; headers already sent in , line 0 in /var/www/html/jj-keller/vendor/zendframework/zendframework1/library/Zend/Controller/Response/Abstract.php:323
+Stack trace:
+#0 /var/www/html/jj-keller/vendor/zendframework/zendframework1/library/Zend/Controller/Response/Abstract.php(341): Zend_Controller_Response_Abstract->canSendHeaders(true)
+#1 /var/www/html/jj-keller/vendor/zendframework/zendframework1/library/Zend/Controller/Response/Abstract.php(768): Zend_Controller_Response_Abstract->sendHeaders()
+#2 /var/www/html/jj-keller/vendor/zendframework/zendframework1/library/Zend/Controller/Front.php(992): Zend_Controller_Response_Abstract->sendResponse()
+#3 /var/www/html/jj-keller/pimcore/lib/Pimcore.php(257): Zend_Controller_Front->dispatch()
+#4 /var/www/html/jj-keller/index.php(18): Pimcore::run()
+#5 {main}
+  thrown in /var/www/html/jj-keller/vendor/zendframework/zendframework1/library/Zend/Controller/Response/Abstract.php on line 323

@@ -1,0 +1,4 @@
+product.uniquecode.error,This product code is already present in system! Please select a different product code.
+market.multi.nichecode,Niche code already present in system.
+market.priority.error,This priority value is already used for other market.
+htmlblock.usecase.error,Please enter Use Case!

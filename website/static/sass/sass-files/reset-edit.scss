@@ -1,0 +1,150 @@
+
+/****** variable defination ***********/
+
+/****  breakpoints  ****/
+$break-small: 330px;
+$break-mobile: 380px;
+$break-tab:580px;
+$break-tablet:767px;
+$break-desktop: 769px;
+$break-big-desktop: 800px;
+$break-high: 1400px;
+
+
+ .hamburger {
+ display: none;
+		@media screen and  (max-width:$break-big-desktop) {
+			display: block;
+		}
+ }
+
+ .benefit{
+
+   &.less{
+.heading3{ width:100px;}
+.inner{ max-width:300px;}
+   }
+ }
+
+ footer 
+ {
+   .utility{ height:auto !important; }
+ }
+
+ .side-nav{
+
+ div{
+  a{ font-size:18px;
+font-family:$museo700 !important;
+  }
+ }
+
+ } 
+
+ .side-text{
+  @media screen and (min-width:$break-tablet){
+    &:before{
+      height:200px;
+      top:-15px;
+    }
+  }
+ }
+
+ /**** edit mode *******/
+ 
+ .pimcore_block_entry {
+    border: 1px dashed $disco;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
+.pimcore_tag_link{ display:inline-block !important;}
+
+.add-image{ 
+border: 1px dashed #7030a0;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+     div {
+          height: auto !important;
+          width: 100% !important;
+      }
+}
+
+.wrapper{
+  
+  .container{
+    
+    aside{
+
+        &:last-child{
+         
+         >div{
+
+           >div{ display:block !important;}
+         }
+
+        }
+    }
+
+  }
+}
+
+.lightbox{
+  .warning{
+   div{width:100% !important;
+
+  .pimcore_tag_droptarget{ width:20px !important;}
+   }
+  
+
+  }
+}
+
+.pimcore_iframe_mask {
+    height: auto !important;
+   
+}
+
+.max-width450 {
+    max-width: 400px;
+    margin:auto;
+}
+
+
+
+.pimcore_area_wysiwyg-editor {
+ padding:15px 25px;
+  img{ @extend .responsive; width:100% important; margin: 5px 0;}
+
+}
+
+.container {
+	.edit-border { 
+	&.col-3{ margin-right:0 !important;
+	max-width: 400px !important;
+    	width: 40%;
+           div{ max-width:350px ;
+                  
+           }
+	}
+	overflow:hidden !important;
+	
+
+	div{ width:auto !important; height:auto !important;}
+
+	.pimcore_tag_droptarget {
+		   height: 20px !important;
+		   width: 20px !important;
+		}
+
+	.pimcore_tag_video{ height: 400px !important;}
+	}
+	.embed-responsive-16by9 {
+	    padding-bottom: 0;
+	}
+
+}
+
+
+
